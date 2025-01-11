@@ -1,0 +1,44 @@
+.box{
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 50px;
+    margin: 10px;
+
+}
+
+#container{
+    border: 1px solid red;
+    border-radius: 15px;
+    display: flex;
+    
+}
+
+.div{
+    padding: 10px;
+}
+
+#container {
+    text-align: center;
+    width: 100%; /* Ensure the container spans full width */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertically center content */
+    align-items: center;     /* Horizontally center content */
+    height: 100%;            /* Take full height of its parent */
+    font-size: 40px;
+}
+
+
+
+img{
+    
+    height: 300px;
+    position: relative;
+
+}
+#reports{
+    border: solid gray;
+    border-width: 1px;
+    text-decoration:underline 1px blue ;
+    border-radius: 10px;
+}
